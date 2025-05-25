@@ -8,11 +8,17 @@ drr/
  weather_news_dashboard/
  
   main.py # Interfaz gráfica principal (GUI)
+  
   config.py # Configuración de claves API
+  
   weather_service.py # Funciones para obtener datos del clima (OpenWeatherMap)
+  
   news_service.py # Funciones para obtener noticias (NewsAPI)
+  
   country_service.py # Funciones para mapear ciudad a país (REST Countries)
+  
   dashboard.py # Lógica para coordinar y generar el reporte
+  
   requirements.txt # Dependencias necesarias para ejecutar el proyecto
 
 
