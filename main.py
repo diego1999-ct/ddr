@@ -16,6 +16,10 @@ def main():
     )
     text_area.pack(padx=10, pady=10, fill=tk.BOTH, expand=True)
 
+    # Frame para agrupar los botones en una fila
+    button_frame = tk.Frame(root, bg="#222222")
+    button_frame.pack(pady=(0, 10))
+
     # Función para cargar el reporte en el área de texto
     def mostrar_reporte():
         text_area.delete("1.0", tk.END)
@@ -24,21 +28,21 @@ def main():
 
     # Botón para cargar reporte
     btn_cargar = tk.Button(
-        root, text="Cargar Reporte", command=mostrar_reporte,
+        button_frame, text="Cargar Reporte", command=mostrar_reporte,
         bg="#555555", fg="white", activebackground="#777777", font=("Arial", 12)
     )
-    btn_cargar.pack(pady=(0, 5))
+    btn_cargar.pack(side=tk.LEFT, padx=10)
 
     # Función para borrar el contenido del área de texto
     def borrar_texto():
         text_area.delete("1.0", tk.END)
 
-    # Botón para borrar contenido (el botón sí debe aparecer aquí)
+    # Botón para borrar contenido
     btn_borrar = tk.Button(
-        root, text="Borrar", command=borrar_texto,
+        button_frame, text="Borrar", command=borrar_texto,
         bg="#aa2222", fg="white", activebackground="#cc4444", font=("Arial", 12)
     )
-    btn_borrar.pack(pady=(0, 10))
+    btn_borrar.pack(side=tk.LEFT, padx=10)
 
     root.mainloop()
 

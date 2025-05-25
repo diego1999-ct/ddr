@@ -1,36 +1,36 @@
 {
     "current_weather": {
         "ciudad": "La Serena",
-        "descripcion": "niebla",
-        "temperatura": 11.73,
-        "humedad": 93,
-        "viento": 1.03
+        "descripcion": "algo de nubes",
+        "temperatura": 14.73,
+        "humedad": 82,
+        "viento": 5.14
     },
     "recent_news": [
         {
-            "titulo": "Capital natural: cuando proteger la biodiversidad es un buen negocio",
+            "titulo": "“La autocrítica es que contraté a cuatro ladrones”: la defensa del exalcalde de Puerto Montt imputado por fraude al fisco",
             "fuente": "Latercera.com",
-            "fecha": "2025-05-24T04:14:20Z"
+            "fecha": "2025-05-24T20:57:30Z"
         },
         {
-            "titulo": "La ambiciosa meta del nuevo gerente general del negocio automotriz de ByD en Chile",
+            "titulo": "“Quedará para siempre en el corazón de todo el país”: El mundo artístico lamenta la partida de la actriz Teresita Reyes",
             "fuente": "Latercera.com",
-            "fecha": "2025-05-24T04:00:00Z"
+            "fecha": "2025-05-24T20:42:06Z"
         },
         {
-            "titulo": "Experta en relación Asia-Latam: “Chile tiene que empezar a pensar en una nueva estrategia para promover sus propios intereses”",
-            "fuente": "Latercera.com",
-            "fecha": "2025-05-24T04:00:00Z"
+            "titulo": "A 84 años del nacimiento de Bob Dylan, el misterio detrás de lo que le sucedió aquel 29 de julio de 1966",
+            "fuente": "La Nacion",
+            "fecha": "2025-05-24T20:21:06Z"
         },
         {
-            "titulo": "Irlanda y Estonia: Los modelos económicos que atraen la mirada de los candidatos presidenciables",
+            "titulo": "Ministra Orellana valora toma de razón de la Contraloría de reglamento para aborto en tres causales",
             "fuente": "Latercera.com",
-            "fecha": "2025-05-24T04:00:00Z"
+            "fecha": "2025-05-24T20:09:08Z"
         },
         {
-            "titulo": "Parque Arauco Kennedy vs. Costanera Center: la contienda por ser el mall con más ventas en Chile",
+            "titulo": "Pronostican nevadas y precipitaciones para regiones de la zona central: revisa qué zonas se verán afectadas",
             "fuente": "Latercera.com",
-            "fecha": "2025-05-24T04:00:00Z"
+            "fecha": "2025-05-24T19:15:16Z"
         }
     ],
     "country_info": {
