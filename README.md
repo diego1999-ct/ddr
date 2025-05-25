@@ -6,6 +6,7 @@ Aplicación de escritorio en Python que muestra el clima actual, las noticias pr
 
 drr/
  weather_news_dashboard/
+ 
   main.py # Interfaz gráfica principal (GUI)
   config.py # Configuración de claves API
   weather_service.py # Funciones para obtener datos del clima (OpenWeatherMap)
