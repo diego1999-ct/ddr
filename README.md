@@ -2,7 +2,7 @@
 
 Aplicación de escritorio en Python que muestra el clima actual, las noticias principales y la moneda del país correspondiente a una ciudad ingresada. Desarrollada con una interfaz gráfica (GUI) moderna con estilo oscuro utilizando `tkinter`.
 
- # 📁 Estructura del Proyecto
+  Estructura del Proyecto
 
 drr/
 └── weather_news_dashboard/
