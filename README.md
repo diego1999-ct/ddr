@@ -200,6 +200,11 @@ type response.json
 
 ![image](https://github.com/user-attachments/assets/b357a08a-37f1-47d6-a8fa-49a5ba61f2e6)
 
+Parte 2: Implementación en Python 
+
+![image](https://github.com/user-attachments/assets/55389381-38f2-48e5-b917-1b2b627d27cc)
+
+
 
 
 
