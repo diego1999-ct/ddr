@@ -137,6 +137,7 @@ Aquí, "name" es un objeto que contiene:
    ![image](https://github.com/user-attachments/assets/e65363db-7357-4f54-9634-e0acf993dbf4)
    ![image](https://github.com/user-attachments/assets/b21c963f-888c-4c5e-8333-e26361e2e9d2)
    ![image](https://github.com/user-attachments/assets/fe2db023-cd69-42b5-ae77-c505aff2f1d6)
+   
   - "translations" agrupa varios objetos por idioma (como "fra", "spa"), y cada uno de ellos tiene versiones comunes y oficiales del nombre del país.
 
 4. Objeto (flags)
@@ -155,6 +156,7 @@ Contiene URLs a diferentes plataformas de mapas, agrupadas por tipo.
 6. Objeto (car)
 
 ![image](https://github.com/user-attachments/assets/f6f96831-44ab-4f73-b546-14291a80edd1)
+
 Información sobre señalización y dirección de manejo, dentro de un mismo objeto.
 
 La estructura anidada permite representar datos complejos de forma clara y organizada. Para acceder a estos datos, se puede usar una notación de punto en herramientas como jq, por ejemplo:
