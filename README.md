@@ -3,27 +3,19 @@
 Aplicación de escritorio en Python que muestra el clima actual, las noticias principales y la moneda del país correspondiente a una ciudad ingresada. Desarrollada con una interfaz gráfica (GUI) moderna con estilo oscuro utilizando `tkinter`.
 
   Estructura del Proyecto
-
 drr/
 └── weather_news_dashboard/
-    ├── config.py              # Configuración: claves API y constantes
-    ├── country_service.py     # Servicio: datos del país (REST Countries)
-    ├── credentials.json       # Credenciales OAuth 2.0 (descargadas desde Google Cloud Console)
-    ├── daily_report.json      # (Opcional) Datos del reporte diario (si aplica)
-    ├── dashboard.py           # Coordinador: integra datos de todos los servicios y construye el reporte
-    ├── main.py                # Interfaz gráfica (GUI principal)
-    ├── news_service.py        # Servicio: obtiene noticias desde NewsAPI
-    ├── requirements.txt       # Lista de dependencias necesarias (para pip)
-    ├── send_daily_report.py   # Script que genera y envía el reporte diario por correo
-    ├── token.json             # Token de autenticación OAuth generado automáticamente
-    └── weather_service.py     # Servicio: obtiene datos del clima (OpenWeatherMap)
-
-
- 
-
-
-
-
+  ├── config.py              # Configuración: claves API y constantes
+  ├── country_service.py     # Servicio: datos del país (REST Countries)
+  ├── credentials.json       # Credenciales OAuth 2.0 (descargadas desde Google Cloud Console)
+  ├── daily_report.json      # (Opcional) Datos del reporte diario (si aplica)
+  ├── dashboard.py           # Coordinador: integra datos de todos los servicios y construye el reporte
+  ├── main.py                # Interfaz gráfica (GUI principal)
+  ├── news_service.py        # Servicio: obtiene noticias desde NewsAPI
+  ├── requirements.txt       # Lista de dependencias necesarias (para pip)
+  ├── send_daily_report.py   # Script que genera y envía el reporte diario por correo
+  ├── token.json             # Token de autenticación OAuth generado automáticamente
+  └── weather_service.py     # Servicio: obtiene datos del clima (OpenWeatherMap)
 
 
  # 🔧 Requisitos
