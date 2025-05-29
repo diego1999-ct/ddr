@@ -4,7 +4,9 @@ Aplicación de escritorio en Python que muestra el clima actual, las noticias pr
 
   Estructura del Proyecto
 drr/
+
 └── weather_news_dashboard/
+
   ├── config.py              # Configuración: claves API y constantes
   
   ├── country_service.py     # Servicio: datos del país (REST Countries)
