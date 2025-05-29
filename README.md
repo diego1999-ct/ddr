@@ -59,4 +59,14 @@ Desde la terminal, en la carpeta del proyecto:
 
 python main.py o correr directamente main.py
 
+💻 Parte 1: Exploración con curl
+
+Tarea 1.1: Clima en La Serena o Coquimbo
+*Comando curl:*
+curl -s "https://api.openweathermap.org/data/2.5/weather?q=La%20Serena,CL&appid=c4dae954b16df24a1acb3ce3acd79be3&units=metric&lang=es" | jq
+![image](https://github.com/user-attachments/assets/663d02a6-0736-439a-8d6b-262327036923)
+
+
+
+
 
