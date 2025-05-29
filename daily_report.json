@@ -1,36 +1,36 @@
 {
     "current_weather": {
         "ciudad": "La Serena",
-        "descripcion": "algo de nubes",
-        "temperatura": 14.73,
-        "humedad": 82,
-        "viento": 5.14
+        "descripcion": "muy nuboso",
+        "temperatura": 12.73,
+        "humedad": 87,
+        "viento": 4.12
     },
     "recent_news": [
         {
-            "titulo": "“La autocrítica es que contraté a cuatro ladrones”: la defensa del exalcalde de Puerto Montt imputado por fraude al fisco",
-            "fuente": "Latercera.com",
-            "fecha": "2025-05-24T20:57:30Z"
+            "titulo": "Roberto Muñoz deja Telefónica Chile en medio de los rumores de venta",
+            "fuente": "Www.df.cl",
+            "fecha": "2025-05-28T16:20:00Z"
         },
         {
-            "titulo": "“Quedará para siempre en el corazón de todo el país”: El mundo artístico lamenta la partida de la actriz Teresita Reyes",
+            "titulo": "¿Ahora sí? Blanco y Negro se reúne para zanjar el futuro de Jorge Almirón en Colo Colo",
             "fuente": "Latercera.com",
-            "fecha": "2025-05-24T20:42:06Z"
+            "fecha": "2025-05-28T16:14:25Z"
         },
         {
-            "titulo": "A 84 años del nacimiento de Bob Dylan, el misterio detrás de lo que le sucedió aquel 29 de julio de 1966",
-            "fuente": "La Nacion",
-            "fecha": "2025-05-24T20:21:06Z"
+            "titulo": "Luz Didier, la consejera más joven de Sofofa: “Mi generación es más pragmática que ideológica”",
+            "fuente": "Latercera.com",
+            "fecha": "2025-05-28T16:12:26Z"
         },
         {
-            "titulo": "Ministra Orellana valora toma de razón de la Contraloría de reglamento para aborto en tres causales",
-            "fuente": "Latercera.com",
-            "fecha": "2025-05-24T20:09:08Z"
+            "titulo": "El comercio de Santiago logra otro mes de alza en abril, pero…no todos celebran",
+            "fuente": "Www.df.cl",
+            "fecha": "2025-05-28T16:10:00Z"
         },
         {
-            "titulo": "Pronostican nevadas y precipitaciones para regiones de la zona central: revisa qué zonas se verán afectadas",
-            "fuente": "Latercera.com",
-            "fecha": "2025-05-24T19:15:16Z"
+            "titulo": "Copilot for Gaming, un compañero para mejorar la experiencia de juego, empieza sus pruebas en iOS y Android",
+            "fuente": "Elotrolado.net",
+            "fecha": "2025-05-28T15:58:25Z"
         }
     ],
     "country_info": {
