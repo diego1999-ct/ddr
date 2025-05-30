@@ -1,0 +1,11 @@
+{
+    "ciudad": "La Serena",
+    "clima": {
+        "descripcion": "niebla",
+        "temperatura": 11.73,
+        "humedad": 93,
+        "presion": 1015,
+        "viento": 1.03
+    },
+    "noticias_recientes": []
+}
