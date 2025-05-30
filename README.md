@@ -249,21 +249,21 @@ Parte 3.1: Configuracion de programador de tareas para envio de correos automati
 ![image](https://github.com/user-attachments/assets/032628f2-f228-448a-a672-0c0009c6bab9)
 
 Generales: 
-          o	Nombre: Enviar reporte diario
-          o	Ejecutar con privilegios elevados
+o	Nombre: Enviar reporte diario
+o	Ejecutar con privilegios elevados
 
 Desencadenadores:
-          o	Programado diariamente
-          o	Hora: 07:30
+o	Programado diariamente
+o	Hora: 07:30
 
-  ![image](https://github.com/user-attachments/assets/47c45034-fd10-42ce-a9a9-f5d584fd34e1)
+![image](https://github.com/user-attachments/assets/47c45034-fd10-42ce-a9a9-f5d584fd34e1)
 
 Acciones:
-          ![image](https://github.com/user-attachments/assets/8630102c-7983-4b83-899c-30e77104bf0a)
-          o	Programa: C:\Users\raver\Downloads\drr-main\.venv\Scripts\python.exe
-          o	Argumentos: send_daily_report.py
-          o	Iniciar en: C:\Users\raver\Downloads\drr-main\drr-main
-    3.	Guarda y asegúrate de que el script se ejecuta correctamente manualmente antes de automatizar.
+![image](https://github.com/user-attachments/assets/8630102c-7983-4b83-899c-30e77104bf0a)
+o	Programa: C:\Users\raver\Downloads\drr-main\.venv\Scripts\python.exe
+o	Argumentos: send_daily_report.py
+o	Iniciar en: C:\Users\raver\Downloads\drr-main\drr-main
+Finalmente guarda y asegúrate de que el script se ejecuta correctamente manualmente antes de automatizar.
 
 Resultados: 
 
