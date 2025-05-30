@@ -2,34 +2,6 @@
 
 Aplicación de escritorio en Python que muestra el clima actual, las noticias principales y la moneda del país correspondiente a una ciudad ingresada. Desarrollada con una interfaz gráfica (GUI) moderna con estilo oscuro utilizando `tkinter`.
 
-  Estructura del Proyecto
-drr/
-
-└── weather_news_dashboard/
-
-  ├── config.py              # Configuración: claves API y constantes
-  
-  ├── country_service.py     # Servicio: datos del país (REST Countries)
-  
-  ├── credentials.json       # Credenciales OAuth 2.0 (descargadas desde Google Cloud Console)
-  
-  ├── daily_report.json      # (Opcional) Datos del reporte diario (si aplica)
-  
-  ├── dashboard.py           # Coordinador: integra datos de todos los servicios y construye el reporte
-  
-  ├── main.py                # Interfaz gráfica (GUI principal)
-  
-  ├── news_service.py        # Servicio: obtiene noticias desde NewsAPI
-  
-  ├── requirements.txt       # Lista de dependencias necesarias (para pip)
-  
-  ├── send_daily_report.py   # Script que genera y envía el reporte diario por correo
-  
-  ├── token.json             # Token de autenticación OAuth generado automáticamente
-  
-  └── weather_service.py     # Servicio: obtiene datos del clima (OpenWeatherMap)
-  
-
 
  #  Requisitos
 
@@ -201,6 +173,65 @@ type response.json
 ![image](https://github.com/user-attachments/assets/b357a08a-37f1-47d6-a8fa-49a5ba61f2e6)
 
 Parte 2: Implementación en Python.
+
+Parte 2: Implementación en Python 
+
+ Tarea 2.1
+ 
+  Estructura del Proyecto
+drr/
+
+└── weather_news_dashboard/
+
+  ├── config.py              # Configuración: claves API y constantes
+  
+  ├── country_service.py     # Servicio: datos del país (REST Countries)
+  
+  ├── credentials.json       # Credenciales OAuth 2.0 (descargadas desde Google Cloud Console)
+  
+  ├── daily_report.json      # (Opcional) Datos del reporte diario (si aplica)
+  
+  ├── dashboard.py           # Coordinador: integra datos de todos los servicios y construye el reporte
+  
+  ├── main.py                # Interfaz gráfica (GUI principal)
+  
+  ├── news_service.py        # Servicio: obtiene noticias desde NewsAPI
+  
+  ├── requirements.txt       # Lista de dependencias necesarias (para pip)
+  
+  ├── send_daily_report.py   # Script que genera y envía el reporte diario por correo
+  
+  ├── token.json             # Token de autenticación OAuth generado automáticamente
+  
+  └── weather_service.py     # Servicio: obtiene datos del clima (OpenWeatherMap)
+
+  Tarea 2.2: Servicio Meteorológico
+
+  ![image](https://github.com/user-attachments/assets/fe3ef61a-4983-4aac-8d9e-2dc33fa5bbc5)
+
+•	Manejo de errores HTTP
+   Manejas errores cuando el código HTTP no es 200, usando:
+![image](https://github.com/user-attachments/assets/3e65baff-9d92-4cf5-a75c-e341dbddca7b)
+
+• Validación de parámetros de entrada
+  Evitar errores al construir la URL y evitar llamadas innecesarias a la API con parámetros vacíos o mal definidos.
+
+![image](https://github.com/user-attachments/assets/25c0da54-e980-47c4-9f96-9c1e2fdc9b6b)
+
+•	Logging de requests realizados
+ Registrar información de qué ciudad y país se está solicitandoy ayuda a depurar o auditar el comportamiento del script.
+
+
+![image](https://github.com/user-attachments/assets/5f1250be-be0d-4d1b-9791-2d585f8eda01)
+
+
+
+![image](https://github.com/user-attachments/assets/3fc63e35-dad4-471e-be27-ce2f90a71557)
+
+•	Formateo de datos de salida
+
+![image](https://github.com/user-attachments/assets/bf2bf2af-6e74-4a97-b0ac-cc62c37076d3)
+
 
 ![image](https://github.com/user-attachments/assets/55389381-38f2-48e5-b917-1b2b627d27cc)
 
