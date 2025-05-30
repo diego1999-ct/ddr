@@ -174,8 +174,6 @@ type response.json
 
 Parte 2: Implementación en Python.
 
-Parte 2: Implementación en Python 
-
  Tarea 2.1
  
   Estructura del Proyecto
