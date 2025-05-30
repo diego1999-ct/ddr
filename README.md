@@ -256,11 +256,10 @@ Desencadenadores:
           o	Programado diariamente
           o	Hora: 07:30
 
-          ![image](https://github.com/user-attachments/assets/47c45034-fd10-42ce-a9a9-f5d584fd34e1)
+  ![image](https://github.com/user-attachments/assets/47c45034-fd10-42ce-a9a9-f5d584fd34e1)
 
 Acciones:
           ![image](https://github.com/user-attachments/assets/8630102c-7983-4b83-899c-30e77104bf0a)
-
           o	Programa: C:\Users\raver\Downloads\drr-main\.venv\Scripts\python.exe
           o	Argumentos: send_daily_report.py
           o	Iniciar en: C:\Users\raver\Downloads\drr-main\drr-main
