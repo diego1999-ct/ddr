@@ -1,0 +1,41 @@
+{
+    "current_weather": {
+        "ciudad": "La Serena",
+        "descripcion": "muy nuboso",
+        "temperatura": 12.73,
+        "humedad": 87,
+        "viento": 4.12
+    },
+    "recent_news": [
+        {
+            "titulo": "Telefónica releva a su CEO en Chile",
+            "fuente": "Expansion.com",
+            "fecha": "2025-05-28T16:48:53Z"
+        },
+        {
+            "titulo": "Inversión superior a $14 mil millones: entregan primera etapa de nuevas obras para control de aluviones en Antofagasta",
+            "fuente": "Latercera.com",
+            "fecha": "2025-05-28T16:46:50Z"
+        },
+        {
+            "titulo": "Las \"grúas\" se mueven en los medios de pagos: los últimos cambios en Transbank, Bci y Kushki",
+            "fuente": "Www.df.cl",
+            "fecha": "2025-05-28T16:34:00Z"
+        },
+        {
+            "titulo": "Chile retira a sus agregados militares y de Defensa en Israel (comunicado de prensa)",
+            "fuente": "Meneame.net",
+            "fecha": "2025-05-28T16:27:59Z"
+        },
+        {
+            "titulo": "Van Klaveren tras retiro de agregados militares en Israel: “Nada justifica las muertes que han ocurrido en Gaza”",
+            "fuente": "Cnnchile.com",
+            "fecha": "2025-05-28T16:27:12Z"
+        }
+    ],
+    "country_info": {
+        "capital": "Santiago",
+        "poblacion": 19116209,
+        "moneda": "CLP"
+    }
+}
