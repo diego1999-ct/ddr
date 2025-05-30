@@ -232,8 +232,18 @@ drr/
 
 ![image](https://github.com/user-attachments/assets/bf2bf2af-6e74-4a97-b0ac-cc62c37076d3)
 
+Tarea 2.3: Servicio de Noticias 
 
-![image](https://github.com/user-attachments/assets/55389381-38f2-48e5-b917-1b2b627d27cc)
+![image](https://github.com/user-attachments/assets/06e7bf45-013b-44f3-907f-1b61de4edc15)
+
+Tarea 2.4: Dashboard Principal 
+
+![image](https://github.com/user-attachments/assets/aa8415b6-ec89-473c-a3fa-2878b6bf2891)
+
+reporte .JSON
+
+![image](https://github.com/user-attachments/assets/f258a6f7-87d2-48fb-9ebc-c913d6452fd6)
+
 
 Parte 3: Conectar API de Gmail.
 
@@ -307,6 +317,13 @@ Información general del país
 Y se enviará automáticamente al correo tabajoapidrr@gmail.com.
 
 ![image](https://github.com/user-attachments/assets/a729351b-b5f1-40a7-868f-8eab203c0ea8)
+
+## Equipo del Proyecto
+
+- **Diego Calderon** - Desarrollador codigo principal e investigacion Curl
+- **Ricardo Duarte** - Investigo sobre la API de Gmail para luego complementarlo con la información que recopiló Raúl. Luego hizo el video explicando su función completa. 
+- **Raul Vergara** - Conecta a la API de Gmail y agenda una tarea para enviar el reporte
+
 
 
 
