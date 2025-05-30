@@ -200,14 +200,81 @@ type response.json
 
 ![image](https://github.com/user-attachments/assets/b357a08a-37f1-47d6-a8fa-49a5ba61f2e6)
 
-Parte 2: Implementación en Python 
+Parte 2: Implementación en Python.
 
 ![image](https://github.com/user-attachments/assets/55389381-38f2-48e5-b917-1b2b627d27cc)
 
+Parte 3: Conectar API de Gmail.
 
+send_daily_report.py
 
+Este script genera y envía un reporte diario automatizado con la siguiente información:
 
+- Clima actual en La Serena, Chile.
+- Noticias recientes relacionadas con Chile.
+- Información general del país.
 
+El reporte se envía automáticamente por correo electrónico mediante la API de Gmail a:
+- Destinatario: tabajoapidrr@gmail.com
+
+Requisitos previos:
+
+1. Archivo `credentials.json` obtenido desde Google Cloud Console.
+   - Tipo de credencial: OAuth 2.0 (Aplicación de escritorio)
+2. Primera ejecución manual para generar `token.json` (proceso de autenticación OAuth).
+3. Instalación de librerías necesarias:
+   pip install --upgrade google-api-python-client google-auth-oauthlib google-auth-httplib2 requests
+
+Automatización sugerida (Windows):
+
+Utilizar el Programador de tareas para ejecutar este script todos los días a las 07:30 AM:
+- Programa: Ruta hacia python.exe (por ejemplo: .venv\Scripts\python.exe)
+- Argumentos: send_daily_report.py
+- Directorio de inicio: Carpeta donde se encuentra este archivo
+
+Archivos requeridos:
+
+- `dashboard.py`: Debe contener la función `generate_report()`
+- `config.py`: Debe contener las claves y configuraciones necesarias para las APIs
+- `token.json`: Se genera automáticamente tras la primera autorización OAuth
+
+Parte 3.1: Configuracion de programador de tareas para envio de correos automaticos.
+
+1.- Abrir el programador de tareas de Windows.
+
+![image](https://github.com/user-attachments/assets/bd47979e-03c7-466e-abab-2c220240c496)
+
+2.- Crear una nueva tarea con los siguientes valores.
+
+![image](https://github.com/user-attachments/assets/032628f2-f228-448a-a672-0c0009c6bab9)
+
+Generales: 
+          o	Nombre: Enviar reporte diario
+          o	Ejecutar con privilegios elevados
+
+Desencadenadores:
+          o	Programado diariamente
+          o	Hora: 07:30
+
+          ![image](https://github.com/user-attachments/assets/47c45034-fd10-42ce-a9a9-f5d584fd34e1)
+
+Acciones:
+          ![image](https://github.com/user-attachments/assets/8630102c-7983-4b83-899c-30e77104bf0a)
+
+          o	Programa: C:\Users\raver\Downloads\drr-main\.venv\Scripts\python.exe
+          o	Argumentos: send_daily_report.py
+          o	Iniciar en: C:\Users\raver\Downloads\drr-main\drr-main
+    3.	Guarda y asegúrate de que el script se ejecuta correctamente manualmente antes de automatizar.
+
+Resultados: 
+
+Cada día a las 7:30 AM, se generará un reporte con:
+•	Clima actual de La Serena, Chile
+•	Noticias recientes relacionadas con Chile
+•	Información general del país
+Y se enviará automáticamente al correo tabajoapidrr@gmail.com.
+
+![image](https://github.com/user-attachments/assets/a729351b-b5f1-40a7-868f-8eab203c0ea8)
 
 
 
