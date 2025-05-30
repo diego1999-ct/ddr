@@ -249,7 +249,7 @@ Parte 3.1: Configuracion de programador de tareas para envio de correos automati
 ![image](https://github.com/user-attachments/assets/032628f2-f228-448a-a672-0c0009c6bab9)
 
 Generales: 
-Nombre: Enviar reporte diario
+Nombre - Enviar reporte diario
 Ejecutar con privilegios elevados
 
 Desencadenadores:
