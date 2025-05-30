@@ -17,17 +17,22 @@ def get_gmail_service():
     Si existe token guardado, lo usa; si no, inicia flujo OAuth.
     """
     creds = None
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    token_path = os.path.join(BASE_DIR, "token.json")
+    credentials_path = os.path.join(BASE_DIR, "credentials.json")
+
     # Verifica si ya existe un archivo token con credenciales guardadas
-    if os.path.exists("token.json"):
+    if os.path.exists(token_path):
         # Carga las credenciales desde el archivo
-        creds = Credentials.from_authorized_user_file("token.json", SCOPES)
+        creds = Credentials.from_authorized_user_file(token_path, SCOPES)
     else:
         # Si no, inicia el flujo de autorización OAuth interactivo
-        flow = InstalledAppFlow.from_client_secrets_file("credentials.json", SCOPES)
+        flow = InstalledAppFlow.from_client_secrets_file(credentials_path, SCOPES)
         creds = flow.run_local_server(port=0)  # Abre navegador para autenticación
         # Guarda las credenciales en token.json para uso futuro
-        with open("token.json", "w") as token:
+        with open(token_path, "w") as token:
             token.write(creds.to_json())
+
     # Construye y retorna el servicio Gmail API autenticado
     return build("gmail", "v1", credentials=creds)
 
@@ -63,3 +68,4 @@ def main():
 
 if __name__ == "__main__":
     main()  # Ejecuta la función principal al correr el script
+
